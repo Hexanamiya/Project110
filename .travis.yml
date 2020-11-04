@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+=======
+language: java
+jdk: oraclejdk11
+before_install:
+- sudo apt-get install -y ant
+- sudo apt-get install -y ant-optional
+>>>>>>> 0cb119a3856cfe69f5285045fd0aafab26678a70
